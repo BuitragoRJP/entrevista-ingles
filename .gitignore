@@ -1,0 +1,16 @@
+# Entorno de Python: cada persona lo crea con setup.py
+.venv/
+
+# Entrevistas guardadas: grabaciones de voz, audio completo de cada ronda, transcripciones e informes personales
+entrevistas/
+
+# Resultados de las entrevistas simuladas de tests/scenarios
+simulaciones/
+
+# Archivos generados
+__pycache__/
+.pytest_cache/
+
+# Estado y ajustes locales de Claude Code
+.claude/scheduled_tasks.lock
+.claude/settings.local.json

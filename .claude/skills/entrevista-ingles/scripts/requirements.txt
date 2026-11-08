@@ -1,0 +1,9 @@
+# Versiones fijadas: faster-whisper 1.2.1 no funciona con av 19 (quitó un parámetro de av.open).
+faster-whisper==1.2.1
+av==18.1.0
+ctranslate2==4.8.5
+sounddevice==0.5.6
+soundfile==0.14.0
+edge-tts==7.3.1
+numpy==2.5.4
+praat-parselmouth==0.4.7

@@ -1,0 +1,10 @@
+{
+  "whisper_model": "small.en",
+  "whisper_device": "auto",
+  "end_silence_s": 3.5,
+  "start_timeout_s": 60,
+  "max_answer_s": 240,
+  "input_device": null,
+  "output_device": null,
+  "speech_rate": "+0%"
+}

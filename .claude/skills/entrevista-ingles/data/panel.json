@@ -1,0 +1,50 @@
+{
+  "interviewers": {
+    "emma": {
+      "name": "Emma Carter",
+      "role": "Hiring Manager",
+      "voice": "en-US-AvaNeural",
+      "feedback_focus": ["Content and relevance", "Professional communication"],
+      "intro": "Thank you for joining us today. I'm Emma Carter, the hiring manager, and I'll be leading this interview."
+    },
+    "olivia": {
+      "name": "Olivia Bennett",
+      "role": "HR Manager",
+      "voice": "en-AU-NatashaNeural",
+      "feedback_focus": ["Grammar", "Vocabulary"],
+      "intro": "Hello, I'm Olivia Bennett, from Human Resources. It's nice to meet you."
+    },
+    "liam": {
+      "name": "Liam Walker",
+      "role": "Team Lead",
+      "voice": "en-CA-LiamNeural",
+      "feedback_focus": ["Coherence", "Fluency"],
+      "intro": "Hi there, I'm Liam Walker. I lead the team you would be working with."
+    },
+    "james": {
+      "name": "James Whitfield",
+      "role": "Department Director",
+      "voice": "en-GB-RyanNeural",
+      "feedback_focus": ["Pronunciation and intonation"],
+      "intro": "Good to meet you. I'm James Whitfield, the department director."
+    }
+  },
+  "rotation": ["emma", "olivia", "liam", "james"],
+  "questions": [
+    {"n": 1, "text": "Can you tell me a little about yourself?"},
+    {"n": 2, "text": "What is your greatest weakness?"},
+    {"n": 3, "text": "What is your greatest strength?"},
+    {"n": 4, "text": "Where do you see yourself in 3–5 years from now?", "spoken": "Where do you see yourself in three to five years from now?"},
+    {"n": 5, "text": "Why should we hire you?"},
+    {"n": 6, "text": "Let’s talk about salary. What are you looking for?"},
+    {"n": 7, "text": "Are you a team player?"},
+    {"n": 8, "text": "What is the biggest mistake you have ever made?"},
+    {"n": 9, "text": "Tell me about a problem you have solved."},
+    {"n": 10, "text": "What has been your greatest achievement?"},
+    {"n": 11, "text": "Would you rather work for money or job satisfaction?"},
+    {"n": 12, "text": "How are you when you are working under pressure?"},
+    {"n": 13, "text": "What is your biggest failure?"},
+    {"n": 14, "text": "How would your boss, supervisors, or co-workers describe you?"},
+    {"n": 15, "text": "What sort of people do you not like to work with?"}
+  ]
+}

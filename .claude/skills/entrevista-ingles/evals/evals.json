@@ -1,0 +1,42 @@
+{
+  "skill_name": "entrevista-ingles",
+  "notes": "Se ejecutan con tests/scenarios/run.py: sesión nueva de claude -p, sin saltar permisos y con un candidato grabado (tests/scenarios/generate.py) que comete errores, responde demasiado corto, pide repetir y pide una pista. Los califica tests/scenarios/grade.py a partir de la sesión guardada y de lo que dijo el panel. El candidato tiene una grabación por turno, así que contesta a lo que se le pregunta aunque el panel añada repreguntas. El examen fija el orden 1..15 para incluir sus turnos difíciles; la práctica pasa --sorteo y usa el orden sorteado de verdad.",
+  "evals": [
+    {
+      "id": 1,
+      "name": "examen-por-voz",
+      "prompt": "/entrevista-ingles",
+      "candidate": "examen",
+      "grade": [
+        "voz",
+        6
+      ],
+      "expected_output": "Pregunta el modo por voz, examina 6 preguntas con los 4 entrevistadores, repregunta la respuesta corta, no acepta la petición de pista como respuesta y entrega el informe con la voz estimada por mediciones, y dice dónde quedó el MP3 con el audio completo de la ronda."
+    },
+    {
+      "id": 2,
+      "name": "practica-completa-por-voz",
+      "prompt": "/entrevista-ingles",
+      "candidate": "practica",
+      "args": [
+        "--sorteo"
+      ],
+      "grade": [
+        "voz",
+        15
+      ],
+      "expected_output": "Entrevista completa de 15 preguntas sin terminar el turno a mitad, en orden sorteado tras la pregunta 1, seguida del informe y del audio completo en MP3."
+    },
+    {
+      "id": 3,
+      "name": "examen-por-escrito",
+      "prompt": "Quiero practicar mi entrevista de trabajo en inglés por escrito, sin micrófono, modo examen de 6 preguntas",
+      "candidate": null,
+      "grade": [
+        "texto",
+        6
+      ],
+      "expected_output": "Usa el modo texto, espera cada respuesta escrita y no evalúa pronunciación, entonación ni voz."
+    }
+  ]
+}

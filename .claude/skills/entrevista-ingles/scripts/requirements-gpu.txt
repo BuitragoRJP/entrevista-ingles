@@ -1,0 +1,4 @@
+# Bibliotecas de CUDA para que Whisper use una gráfica NVIDIA. Ocupan unos 1,8 GB.
+# Se instalan con --no-deps: Whisper solo necesita estas DLL, no el resto del paquete CUDA.
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.28.1.4
